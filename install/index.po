@@ -6,14 +6,17 @@ msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-29 16:06+0100\n"
-"PO-Revision-Date: 2018-11-16 09:10+0100\n"
-"Last-Translator: Julien Palard <julien@palard.fr>\n"
+"PO-Revision-Date: 2019-01-11 20:58+0100\n"
+"Last-Translator: jjaniec <jjaniec@student.42.fr>\n"
 "Language-Team: FRENCH <traductions@lists.afpy.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: tutorial\n"
 
 #: ../Doc/install/index.rst:7
 msgid "Installing Python Modules (Legacy version)"
@@ -33,7 +36,7 @@ msgstr ":ref:`installing-index`"
 
 #: ../Doc/install/index.rst:16
 msgid "The up to date module installation documentations"
-msgstr ""
+msgstr "Les documentations d'installation du module à jour"
 
 #: ../Doc/install/index.rst:28
 msgid ""
@@ -209,6 +212,8 @@ msgid ""
 "For Windows, this command should be run from a command prompt window (:"
 "menuselection:`Start --> Accessories`)::"
 msgstr ""
+"Pour Windows, cette commande doit être exécutée depuis une fenêtre d'invite "
+"de commandes (:menuselection:`Démarrer --> Accessoires`)::"
 
 #: ../Doc/install/index.rst:121
 msgid ""
@@ -568,7 +573,7 @@ msgid ""
 msgstr ""
 "Quelques autres remplacements utilisés dans ce document : :file:`{X.Y}` "
 "représenter la version de Python, par exemple ``3.2``; :file:`{abiflags}` "
-"sera remplacé par la valeur de :data:`sys.abiflags` ou la chaine vide pour "
+"sera remplacé par la valeur de :data:`sys.abiflags` ou la chaîne vide pour "
 "les plateformes qui ne définissent pas d’indicateurs d’ABI ; :file:"
 "`{distname}` sera remplacé par le nom de la distribution de modules en train "
 "d’être installée. Les points et la capitalisation sont importantes dans les "
@@ -845,7 +850,7 @@ msgstr ""
 
 #: ../Doc/install/index.rst:433
 msgid "Alternate installation: Unix (the prefix scheme)"
-msgstr "Installation alternative : Unix (le schéma de préfixe)"
+msgstr "Installation alternative: Unix (le schéma de préfixe)"
 
 #: ../Doc/install/index.rst:435
 msgid ""
@@ -992,7 +997,7 @@ msgstr ""
 
 #: ../Doc/install/index.rst:503
 msgid "Alternate installation: Windows (the prefix scheme)"
-msgstr ""
+msgstr "Installation alternative: Windows (le schéma de préfixe)"
 
 #: ../Doc/install/index.rst:505
 msgid ""
@@ -1007,6 +1012,8 @@ msgid ""
 "to install modules to the :file:`\\\\Temp\\\\Python` directory on the "
 "current drive."
 msgstr ""
+"pour installer les modules dans le répertoire :file:`\\\\Temp\\\\Python` du "
+"disque courant."
 
 #: ../Doc/install/index.rst:514
 msgid ""
@@ -1018,7 +1025,7 @@ msgstr ""
 
 #: ../Doc/install/index.rst:523
 msgid ":file:`{prefix}\\\\Scripts`"
-msgstr ""
+msgstr ":file:`{prefix}\\\\Scripts`"
 
 #: ../Doc/install/index.rst:525
 msgid ":file:`{prefix}\\\\Include\\\\{distname}`"
@@ -1026,7 +1033,7 @@ msgstr ":file:`{prefix}\\\\Include\\\\{distname}`"
 
 #: ../Doc/install/index.rst:532
 msgid "Custom Installation"
-msgstr ""
+msgstr "Installation personnalisée"
 
 #: ../Doc/install/index.rst:534
 msgid ""
@@ -1046,35 +1053,35 @@ msgstr ""
 
 #: ../Doc/install/index.rst:545
 msgid "Override option"
-msgstr ""
+msgstr "Ignorer l'option"
 
 #: ../Doc/install/index.rst:547
 msgid "``--install-purelib``"
-msgstr ""
+msgstr "``--install-purelib``"
 
 #: ../Doc/install/index.rst:548
 msgid "``--install-platlib``"
-msgstr ""
+msgstr "``--install-platlib``"
 
 #: ../Doc/install/index.rst:549
 msgid "all modules"
-msgstr ""
+msgstr "tout les modules"
 
 #: ../Doc/install/index.rst:549
 msgid "``--install-lib``"
-msgstr ""
+msgstr "``--install-lib``"
 
 #: ../Doc/install/index.rst:550
 msgid "``--install-scripts``"
-msgstr ""
+msgstr "``--install-scripts``"
 
 #: ../Doc/install/index.rst:551
 msgid "``--install-data``"
-msgstr ""
+msgstr "``--install-data``"
 
 #: ../Doc/install/index.rst:552
 msgid "``--install-headers``"
-msgstr ""
+msgstr "``--install-headers``"
 
 #: ../Doc/install/index.rst:555
 msgid ""
@@ -1217,7 +1224,7 @@ msgstr ""
 #: ../Doc/install/index.rst:701
 msgid ""
 "The null string in ``sys.path`` represents the current working directory."
-msgstr ""
+msgstr "La chaîne nulle dans ``sys.path`` représente le dossier courant"
 
 #: ../Doc/install/index.rst:703
 msgid ""
@@ -1292,7 +1299,7 @@ msgstr ""
 
 #: ../Doc/install/index.rst:759
 msgid "Distutils Configuration Files"
-msgstr ""
+msgstr "Fichiers de configuration Disutils"
 
 #: ../Doc/install/index.rst:761
 msgid ""
@@ -1308,7 +1315,7 @@ msgstr ""
 
 #: ../Doc/install/index.rst:774
 msgid "Location and names of config files"
-msgstr ""
+msgstr "Emplacement et noms des fichiers de configuration"
 
 #: ../Doc/install/index.rst:776
 msgid ""
@@ -1316,26 +1323,29 @@ msgid ""
 "platforms.  On Unix and Mac OS X, the three configuration files (in the "
 "order they are processed) are:"
 msgstr ""
+"Les noms et emplacements des fichiers de configuration varient suivant les "
+"systèmes. Sur Unix et Mac OS X, les trois fichiers de configuration (dans "
+"l'ordre où ils sont traités) sont:"
 
 #: ../Doc/install/index.rst:781 ../Doc/install/index.rst:793
 msgid "Location and filename"
-msgstr ""
+msgstr "Emplacement et nom du fichier"
 
 #: ../Doc/install/index.rst:783 ../Doc/install/index.rst:795
 msgid "system"
-msgstr ""
+msgstr "Système"
 
 #: ../Doc/install/index.rst:783
 msgid ":file:`{prefix}/lib/python{ver}/distutils/distutils.cfg`"
-msgstr ""
+msgstr ":file:`{prefix}/lib/python{ver}/distutils/distutils.cfg`"
 
 #: ../Doc/install/index.rst:785 ../Doc/install/index.rst:797
 msgid "personal"
-msgstr ""
+msgstr "personnel"
 
 #: ../Doc/install/index.rst:785
 msgid ":file:`$HOME/.pydistutils.cfg`"
-msgstr ""
+msgstr ":file:`$HOME/.pydistutils.cfg`"
 
 #: ../Doc/install/index.rst:787 ../Doc/install/index.rst:799
 msgid "local"
@@ -1343,7 +1353,7 @@ msgstr ""
 
 #: ../Doc/install/index.rst:787 ../Doc/install/index.rst:799
 msgid ":file:`setup.cfg`"
-msgstr ""
+msgstr ":file:`setup.cfg`"
 
 #: ../Doc/install/index.rst:787 ../Doc/install/index.rst:799
 msgid "\\(3)"
@@ -1351,11 +1361,11 @@ msgstr "\\(3)"
 
 #: ../Doc/install/index.rst:790
 msgid "And on Windows, the configuration files are:"
-msgstr ""
+msgstr "Et sur Windows, les fichiers de configuration sont:"
 
 #: ../Doc/install/index.rst:795
 msgid ":file:`{prefix}\\\\Lib\\\\distutils\\\\distutils.cfg`"
-msgstr ""
+msgstr ":file:`{prefix}\\\\Lib\\\\distutils\\\\distutils.cfg`"
 
 #: ../Doc/install/index.rst:795
 msgid "\\(4)"
@@ -1363,7 +1373,7 @@ msgstr "\\(4)"
 
 #: ../Doc/install/index.rst:797
 msgid ":file:`%HOME%\\\\pydistutils.cfg`"
-msgstr ""
+msgstr ":file:`%HOME%\\\\pydistutils.cfg`"
 
 #: ../Doc/install/index.rst:797
 msgid "\\(5)"
@@ -1374,6 +1384,8 @@ msgid ""
 "On all platforms, the \"personal\" file can be temporarily disabled by "
 "passing the `--no-user-cfg` option."
 msgstr ""
+"Sur toutes les plateformes, le fichier ''personnel'' peut être "
+"temporairement désactivé en passant l'option `--no-user-cfg`."
 
 #: ../Doc/install/index.rst:808
 msgid ""
@@ -1391,11 +1403,17 @@ msgid ""
 "from the standard :mod:`pwd` module. This is done by the :func:`os.path."
 "expanduser` function used by Distutils."
 msgstr ""
+"Sur Unix, si la variable d'environnement :envvar:`HOME` n'est pas définie, "
+"le répertoire utilisateur sera déterminé avec la fonction :func:`getpwuid` "
+"du module standard :mod:`pwd`. Ceci est réalisé par la fonction :func:`os."
+"path.expanduser` utilisée par Disutils."
 
 #: ../Doc/install/index.rst:821
 msgid ""
 "I.e., in the current directory (usually the location of the setup script)."
 msgstr ""
+"Exemple, dans le dossier courant (d'habitude l'emplacement du script "
+"d'installation)."
 
 #: ../Doc/install/index.rst:824
 msgid ""
@@ -1416,10 +1434,14 @@ msgid ""
 "tried. This is done by the :func:`os.path.expanduser` function used by "
 "Distutils."
 msgstr ""
+"Sous Windows, si la variable d'environnement :envvar:`HOME` n'est pas "
+"définie, :envvar:`USERPROFILE` puis :envvar:`HOMEDRIVE` et :envvar:"
+"`HOMEPATH` seront essayés. Ceci est fait par la fonction :func:`os.path."
+"expanduser` utilisée par Distutils."
 
 #: ../Doc/install/index.rst:842
 msgid "Syntax of config files"
-msgstr ""
+msgstr "Syntaxe des fichiers de configuration"
 
 #: ../Doc/install/index.rst:844
 msgid ""
@@ -1429,12 +1451,19 @@ msgid ""
 "command.  Each section consists of one option per line, specified as "
 "``option=value``."
 msgstr ""
+"Les fichiers de configuration Disutils ont tous la même syntaxe. Les "
+"fichiers de configuration sont regroupés en catégories. Il y a une catégorie "
+"pour chaque commande de Disutils, et une catégorie ``globale`` pour les "
+"options globales qui affectent toutes les commandes. Chaque catégorie se "
+"compose d'une option par ligne, spécifiée comme ``option=valeur``."
 
 #: ../Doc/install/index.rst:849
 msgid ""
 "For example, the following is a complete config file that just forces all "
 "commands to run quietly by default:"
 msgstr ""
+"Par exemple, ce qui suit est un fichier de configuration complet forçant "
+"tout les commandes à se lancer silencieusement par défaut:"
 
 #: ../Doc/install/index.rst:857
 msgid ""
@@ -1455,7 +1484,7 @@ msgstr ""
 
 #: ../Doc/install/index.rst:874
 msgid "which corresponds to the command-line arguments ::"
-msgstr ""
+msgstr "ce qui correspond aux arguments de la ligne de commande::"
 
 #: ../Doc/install/index.rst:878
 msgid ""
@@ -1471,12 +1500,16 @@ msgid ""
 "You can find out the complete list of options for any command using the :"
 "option:`!--help` option, e.g.::"
 msgstr ""
+"Vous pouvez trouver la liste complète des options pour n'importe quelle "
+"commande en utilisant l'option :option:`!--help`, par exemple ::"
 
 #: ../Doc/install/index.rst:889
 msgid ""
 "and you can find out the complete list of global options by using :option:"
 "`!--help` without a command::"
 msgstr ""
+"et vous pouvez trouver la liste complète des options globales en utilisant :"
+"option:`!--help` sans commande ::"
 
 #: ../Doc/install/index.rst:894
 msgid ""
@@ -1486,7 +1519,7 @@ msgstr ""
 
 #: ../Doc/install/index.rst:900
 msgid "Building Extensions: Tips and Tricks"
-msgstr ""
+msgstr "Développer des extensions: Trucs et Astuces"
 
 #: ../Doc/install/index.rst:902
 msgid ""
@@ -1529,7 +1562,7 @@ msgstr ""
 
 #: ../Doc/install/index.rst:934
 msgid "Let's examine each of the fields in turn."
-msgstr ""
+msgstr "Examinons chacun des champs à tour de rôle."
 
 #: ../Doc/install/index.rst:936
 msgid ""
@@ -1603,7 +1636,7 @@ msgstr ""
 
 #: ../Doc/install/index.rst:990
 msgid "Borland/CodeGear C++"
-msgstr ""
+msgstr "C++ Borland/CodeGear"
 
 #: ../Doc/install/index.rst:992
 msgid ""
@@ -1629,6 +1662,8 @@ msgid ""
 "The converted files have to reside in the same directories as the normal "
 "libraries."
 msgstr ""
+"Les fichiers convertis doivent se trouver dans les mêmes répertoires que les "
+"bibliothèques normales."
 
 #: ../Doc/install/index.rst:1015
 msgid ""
@@ -1644,6 +1679,8 @@ msgid ""
 "To let Distutils compile your extension with Borland C++ you now have to "
 "type::"
 msgstr ""
+"Pour permettre à Distutils de compiler votre extension avec Borland C++ vous "
+"devez maintenant taper::"
 
 #: ../Doc/install/index.rst:1025
 msgid ""
@@ -1676,7 +1713,7 @@ msgstr ""
 
 #: ../Doc/install/index.rst:1042
 msgid "GNU C / Cygwin / MinGW"
-msgstr ""
+msgstr "GNU C / Cygwin / MinGW"
 
 #: ../Doc/install/index.rst:1044
 msgid ""
@@ -1696,10 +1733,12 @@ msgstr ""
 #: ../Doc/install/index.rst:1053
 msgid "To let Distutils compile your extension with Cygwin you have to type::"
 msgstr ""
+"Pour permettre à Distutils de compiler votre extension avec Cygwin, vous "
+"devez taper::"
 
 #: ../Doc/install/index.rst:1057
 msgid "and for Cygwin in no-cygwin mode [#]_ or for MinGW type::"
-msgstr ""
+msgstr "et pour Cygwin en mode non-cygwin [#]_ ou pour MinGW tapez::"
 
 #: ../Doc/install/index.rst:1061
 msgid ""
@@ -1710,7 +1749,7 @@ msgstr ""
 
 #: ../Doc/install/index.rst:1066
 msgid "Older Versions of Python and MinGW"
-msgstr ""
+msgstr "Versions plus anciennes de Python et MinGW"
 
 #: ../Doc/install/index.rst:1067
 msgid ""
@@ -1782,9 +1821,13 @@ msgid ""
 "Check https://www.sourceware.org/cygwin/ and http://www.mingw.org/ for more "
 "information"
 msgstr ""
+"Pour plus d'informations, consultez https://www.sourceware.org/cygwin/ et "
+"http://www.mingw.org/"
 
 #: ../Doc/install/index.rst:1116
 msgid ""
 "Then you have no POSIX emulation available, but you also don't need :file:"
 "`cygwin1.dll`."
 msgstr ""
+"Alors vous n'avez pas d'émulation POSIX disponible, mais vous n'avez pas non "
+"plus besoin de :file:`cygwin1.dll`."
